@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-rdir="./results"
-
 task="$1"
 shots="$2"
 rdir="$3"

@@ -1,7 +1,9 @@
 # EuroLLM Evaluation
 
 
-## EuropeanLLM Leaderboard
+## European LLM Leaderboard
+
+Leaderboard details: https://huggingface.co/spaces/openGPT-X/european-llm-leaderboard
 
 ### Installation
 ```bash

@@ -1,3 +1,14 @@
+"""Extracts results from "results*.jsons" and outputs tab-based results ready to copy-paste into google sheets.
+
+Usage example:
+
+```bash
+MODELS_DIR="model_results_dir_path"
+TASK_NAME="ogx_truthfulqax_mc2"
+METRIC_NAME='"acc,none"'
+python extract_results.py $MODELS_DIR --task_name $TASK_NAME --metric_name $METRIC_NAME
+```
+"""
 import json
 import logging
 import pathlib

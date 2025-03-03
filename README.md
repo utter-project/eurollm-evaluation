@@ -15,7 +15,7 @@ pip install -e .
 
 ### Fix chat template
 Some models might have dict instead of string chat template and it will fail when using the lm-evaluation-harness from above.
-To avoid that replace the `chat_template` function in the `lm_eval/lm_eval/models/huggingface.py`.
+To avoid that replace the `chat_template` function in the `lm_eval/models/huggingface.py`.
 
 ```python
 def chat_template(self) -> str:
@@ -24,6 +24,20 @@ def chat_template(self) -> str:
             return self.tokenizer.chat_template["default"]  # Will throw error if there is no default template.
         return self.tokenizer.chat_template
     return self.tokenizer.default_chat_template
+```
+
+### Fix Gemma-2
+Additionally, we ported Gemma-2 models fix described here:
+https://github.com/EleutherAI/lm-evaluation-harness/pull/2049
+
+In `lm_eval/models/huggingface.py` replace (for vLLM eval see the link above):
+
+```python
+if getattr(self.config, "model_type", None) == "gemma":
+```
+with
+```python
+if getattr(self.config, "model_type", None) in ["gemma", "gemma2"]:
 ```
 
 ### Running eval

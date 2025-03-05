@@ -27,6 +27,7 @@ def chat_template(self) -> str:
 ```
 
 ### Fix Gemma-2
+#### Fix required for all the tasks
 Additionally, we ported Gemma-2 models fix described here:
 https://github.com/EleutherAI/lm-evaluation-harness/pull/2049
 
@@ -39,6 +40,39 @@ with
 ```python
 if getattr(self.config, "model_type", None) in ["gemma", "gemma2"]:
 ```
+
+#### Fix required for the tasks with `description` field in the data
+In lm-evaluation-harness the `description` field of the tasks, if exists, will be used as the system prompt.
+This can cause models that do not support system prompts (e.g. `gemma-2-9b-instruct`) to crash.
+This MR [Fix chat template; fix leaderboard math](https://github.com/EleutherAI/lm-evaluation-harness/pull/2475) suggests to change the `apply_chat_template` function in `lm_eval/models/huggingface.py` to the one below:
+```
+    def apply_chat_template(self, chat_history: List[Dict[str, str]]) -> str:
+        """
+        Method to apply a chat template to a list of chat history between user and model.
+        """
+        try:
+            chat_templated = self.tokenizer.apply_chat_template(
+                chat_history, tokenize=False, add_generation_prompt=True
+            )
+        except jinja2.exceptions.TemplateError:
+            eval_logger.warning(
+                "Failed to apply chat template. removing the system role in chat history."
+            )
+            chat_history = [msg for msg in chat_history if msg["role"] != "system"]
+            chat_templated = self.tokenizer.apply_chat_template(
+                chat_history, tokenize=False, add_generation_prompt=True
+            )
+
+        return chat_templated
+```
+
+Please note that with this change now you need to also import `jinja2` in `lm_eval/models/huggingface.py` by adding the following line to the beginning of your `huggingface.py`:
+```
+import jinja2
+```
+
+
+
 
 ### Running eval
 

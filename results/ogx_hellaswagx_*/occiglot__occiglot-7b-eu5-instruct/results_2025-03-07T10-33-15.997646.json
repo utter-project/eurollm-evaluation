@@ -1,0 +1,1166 @@
+{
+  "results": {
+    "ogx_hellaswagx_sv": {
+      "acc,none": 0.40748854809798846,
+      "acc_stderr,none": 0.004903628887264536,
+      "acc_norm,none": 0.5136427006572396,
+      "acc_norm_stderr,none": 0.004987923636628548,
+      "alias": "ogx_hellaswagx_sv"
+    },
+    "ogx_hellaswagx_sl": {
+      "acc,none": 0.34156542521410077,
+      "acc_stderr,none": 0.004732654295724444,
+      "acc_norm,none": 0.4171479784903406,
+      "acc_norm_stderr,none": 0.004920800313232744,
+      "alias": "ogx_hellaswagx_sl"
+    },
+    "ogx_hellaswagx_sk": {
+      "acc,none": 0.34096793467436765,
+      "acc_stderr,none": 0.0047306580730415645,
+      "acc_norm,none": 0.4239195379406493,
+      "acc_norm_stderr,none": 0.004931679059919376,
+      "alias": "ogx_hellaswagx_sk"
+    },
+    "ogx_hellaswagx_ro": {
+      "acc,none": 0.37870942043417644,
+      "acc_stderr,none": 0.004840742206718102,
+      "acc_norm,none": 0.47540330611431986,
+      "acc_norm_stderr,none": 0.004983740145218608,
+      "alias": "ogx_hellaswagx_ro"
+    },
+    "ogx_hellaswagx_pt-pt": {
+      "acc,none": 0.44692292372037445,
+      "acc_stderr,none": 0.00496158757427562,
+      "acc_norm,none": 0.595399322844055,
+      "acc_norm_stderr,none": 0.0048981151109750215,
+      "alias": "ogx_hellaswagx_pt-pt"
+    },
+    "ogx_hellaswagx_pl": {
+      "acc,none": 0.3746265684126668,
+      "acc_stderr,none": 0.004830371317841056,
+      "acc_norm,none": 0.46654052977494526,
+      "acc_norm_stderr,none": 0.004978596394045433,
+      "alias": "ogx_hellaswagx_pl"
+    },
+    "ogx_hellaswagx_nl": {
+      "acc,none": 0.40141406094403503,
+      "acc_stderr,none": 0.004891826692722824,
+      "acc_norm,none": 0.528281218880701,
+      "acc_norm_stderr,none": 0.004981793089848268,
+      "alias": "ogx_hellaswagx_nl"
+    },
+    "ogx_hellaswagx_lv": {
+      "acc,none": 0.28589922326229833,
+      "acc_stderr,none": 0.0045091819193228645,
+      "acc_norm,none": 0.3189603664608644,
+      "acc_norm_stderr,none": 0.004651211311633833,
+      "alias": "ogx_hellaswagx_lv"
+    },
+    "ogx_hellaswagx_lt": {
+      "acc,none": 0.28978291177056364,
+      "acc_stderr,none": 0.00452734365113077,
+      "acc_norm,none": 0.32573192591117306,
+      "acc_norm_stderr,none": 0.004676898861978906,
+      "alias": "ogx_hellaswagx_lt"
+    },
+    "ogx_hellaswagx_it": {
+      "acc,none": 0.5141462442717672,
+      "acc_stderr,none": 0.004988777719612194,
+      "acc_norm,none": 0.6771269177126917,
+      "acc_norm_stderr,none": 0.004667120317449239,
+      "alias": "ogx_hellaswagx_it"
+    },
+    "ogx_hellaswagx_hu": {
+      "acc,none": 0.32792272455686117,
+      "acc_stderr,none": 0.0046849706969029495,
+      "acc_norm,none": 0.4062935670185222,
+      "acc_norm_stderr,none": 0.0049013686295334155,
+      "alias": "ogx_hellaswagx_hu"
+    },
+    "ogx_hellaswagx_fr": {
+      "acc,none": 0.5232117951783224,
+      "acc_stderr,none": 0.004985394754808444,
+      "acc_norm,none": 0.6899780832835226,
+      "acc_norm_stderr,none": 0.004616489842603341,
+      "alias": "ogx_hellaswagx_fr"
+    },
+    "ogx_hellaswagx_fi": {
+      "acc,none": 0.2973511252738498,
+      "acc_stderr,none": 0.004561582009834566,
+      "acc_norm,none": 0.35261900019916353,
+      "acc_norm_stderr,none": 0.004768088918512187,
+      "alias": "ogx_hellaswagx_fi"
+    },
+    "ogx_hellaswagx_et": {
+      "acc,none": 0.2826130252937662,
+      "acc_stderr,none": 0.004493495872000077,
+      "acc_norm,none": 0.32513443537143993,
+      "acc_norm_stderr,none": 0.004674677287148616,
+      "alias": "ogx_hellaswagx_et"
+    },
+    "ogx_hellaswagx_es": {
+      "acc,none": 0.5192269376369795,
+      "acc_stderr,none": 0.004987084293535771,
+      "acc_norm,none": 0.6905758119147241,
+      "acc_norm_stderr,none": 0.004614034625342862,
+      "alias": "ogx_hellaswagx_es"
+    },
+    "ogx_hellaswagx_el": {
+      "acc,none": 0.3004381597291376,
+      "acc_stderr,none": 0.0045751160939319245,
+      "acc_norm,none": 0.34116709818761204,
+      "acc_norm_stderr,none": 0.004731324409133262,
+      "alias": "ogx_hellaswagx_el"
+    },
+    "ogx_hellaswagx_de": {
+      "acc,none": 0.5111734642749775,
+      "acc_stderr,none": 0.005004259096974513,
+      "acc_norm,none": 0.6584828139092094,
+      "acc_norm_stderr,none": 0.004747410152544508,
+      "alias": "ogx_hellaswagx_de"
+    },
+    "ogx_hellaswagx_da": {
+      "acc,none": 0.39673371838279226,
+      "acc_stderr,none": 0.00488220036443237,
+      "acc_norm,none": 0.5035849432383988,
+      "acc_norm_stderr,none": 0.004989653154272487,
+      "alias": "ogx_hellaswagx_da"
+    },
+    "ogx_hellaswagx_cs": {
+      "acc,none": 0.36566421031667,
+      "acc_stderr,none": 0.004806316342709406,
+      "acc_norm,none": 0.4630551682931687,
+      "acc_norm_stderr,none": 0.004976141457736876,
+      "alias": "ogx_hellaswagx_cs"
+    },
+    "ogx_hellaswagx_bg": {
+      "acc,none": 0.36536546504680345,
+      "acc_stderr,none": 0.004805483767055348,
+      "acc_norm,none": 0.46106353316072496,
+      "acc_norm_stderr,none": 0.004974628903829148,
+      "alias": "ogx_hellaswagx_bg"
+    }
+  },
+  "group_subtasks": {
+    "ogx_hellaswagx_bg": [],
+    "ogx_hellaswagx_cs": [],
+    "ogx_hellaswagx_da": [],
+    "ogx_hellaswagx_de": [],
+    "ogx_hellaswagx_el": [],
+    "ogx_hellaswagx_es": [],
+    "ogx_hellaswagx_et": [],
+    "ogx_hellaswagx_fi": [],
+    "ogx_hellaswagx_fr": [],
+    "ogx_hellaswagx_hu": [],
+    "ogx_hellaswagx_it": [],
+    "ogx_hellaswagx_lt": [],
+    "ogx_hellaswagx_lv": [],
+    "ogx_hellaswagx_nl": [],
+    "ogx_hellaswagx_pl": [],
+    "ogx_hellaswagx_pt-pt": [],
+    "ogx_hellaswagx_ro": [],
+    "ogx_hellaswagx_sk": [],
+    "ogx_hellaswagx_sl": [],
+    "ogx_hellaswagx_sv": []
+  },
+  "configs": {
+    "ogx_hellaswagx_bg": {
+      "task": "ogx_hellaswagx_bg",
+      "group": [
+        "multiple_choice",
+        "hellaswagx"
+      ],
+      "dataset_path": "openGPT-X/hellaswagx",
+      "dataset_name": "BG",
+      "training_split": "train",
+      "validation_split": "validation",
+      "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        ctx = doc[\"ctx_a\"] + \" \" + doc[\"ctx_b\"].capitalize()\n        out_doc = {\n            \"query\": preprocess(doc[\"activity_label\"] + \": \" + ctx),\n            \"choices\": [preprocess(ending) for ending in doc[\"endings\"]],\n            \"gold\": int(doc[\"label\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{query}}",
+      "doc_to_target": "{{label}}",
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 10,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_hellaswagx_cs": {
+      "task": "ogx_hellaswagx_cs",
+      "group": [
+        "multiple_choice",
+        "hellaswagx"
+      ],
+      "dataset_path": "openGPT-X/hellaswagx",
+      "dataset_name": "CS",
+      "training_split": "train",
+      "validation_split": "validation",
+      "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        ctx = doc[\"ctx_a\"] + \" \" + doc[\"ctx_b\"].capitalize()\n        out_doc = {\n            \"query\": preprocess(doc[\"activity_label\"] + \": \" + ctx),\n            \"choices\": [preprocess(ending) for ending in doc[\"endings\"]],\n            \"gold\": int(doc[\"label\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{query}}",
+      "doc_to_target": "{{label}}",
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 10,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_hellaswagx_da": {
+      "task": "ogx_hellaswagx_da",
+      "group": [
+        "multiple_choice",
+        "hellaswagx"
+      ],
+      "dataset_path": "openGPT-X/hellaswagx",
+      "dataset_name": "DA",
+      "training_split": "train",
+      "validation_split": "validation",
+      "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        ctx = doc[\"ctx_a\"] + \" \" + doc[\"ctx_b\"].capitalize()\n        out_doc = {\n            \"query\": preprocess(doc[\"activity_label\"] + \": \" + ctx),\n            \"choices\": [preprocess(ending) for ending in doc[\"endings\"]],\n            \"gold\": int(doc[\"label\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{query}}",
+      "doc_to_target": "{{label}}",
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 10,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_hellaswagx_de": {
+      "task": "ogx_hellaswagx_de",
+      "group": [
+        "multiple_choice",
+        "hellaswagx"
+      ],
+      "dataset_path": "openGPT-X/hellaswagx",
+      "dataset_name": "DE",
+      "training_split": "train",
+      "validation_split": "validation",
+      "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        ctx = doc[\"ctx_a\"] + \" \" + doc[\"ctx_b\"].capitalize()\n        out_doc = {\n            \"query\": preprocess(doc[\"activity_label\"] + \": \" + ctx),\n            \"choices\": [preprocess(ending) for ending in doc[\"endings\"]],\n            \"gold\": int(doc[\"label\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{query}}",
+      "doc_to_target": "{{label}}",
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 10,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_hellaswagx_el": {
+      "task": "ogx_hellaswagx_el",
+      "group": [
+        "multiple_choice",
+        "hellaswagx"
+      ],
+      "dataset_path": "openGPT-X/hellaswagx",
+      "dataset_name": "EL",
+      "training_split": "train",
+      "validation_split": "validation",
+      "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        ctx = doc[\"ctx_a\"] + \" \" + doc[\"ctx_b\"].capitalize()\n        out_doc = {\n            \"query\": preprocess(doc[\"activity_label\"] + \": \" + ctx),\n            \"choices\": [preprocess(ending) for ending in doc[\"endings\"]],\n            \"gold\": int(doc[\"label\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{query}}",
+      "doc_to_target": "{{label}}",
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 10,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_hellaswagx_es": {
+      "task": "ogx_hellaswagx_es",
+      "group": [
+        "multiple_choice",
+        "hellaswagx"
+      ],
+      "dataset_path": "openGPT-X/hellaswagx",
+      "dataset_name": "ES",
+      "training_split": "train",
+      "validation_split": "validation",
+      "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        ctx = doc[\"ctx_a\"] + \" \" + doc[\"ctx_b\"].capitalize()\n        out_doc = {\n            \"query\": preprocess(doc[\"activity_label\"] + \": \" + ctx),\n            \"choices\": [preprocess(ending) for ending in doc[\"endings\"]],\n            \"gold\": int(doc[\"label\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{query}}",
+      "doc_to_target": "{{label}}",
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 10,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_hellaswagx_et": {
+      "task": "ogx_hellaswagx_et",
+      "group": [
+        "multiple_choice",
+        "hellaswagx"
+      ],
+      "dataset_path": "openGPT-X/hellaswagx",
+      "dataset_name": "ET",
+      "training_split": "train",
+      "validation_split": "validation",
+      "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        ctx = doc[\"ctx_a\"] + \" \" + doc[\"ctx_b\"].capitalize()\n        out_doc = {\n            \"query\": preprocess(doc[\"activity_label\"] + \": \" + ctx),\n            \"choices\": [preprocess(ending) for ending in doc[\"endings\"]],\n            \"gold\": int(doc[\"label\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{query}}",
+      "doc_to_target": "{{label}}",
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 10,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_hellaswagx_fi": {
+      "task": "ogx_hellaswagx_fi",
+      "group": [
+        "multiple_choice",
+        "hellaswagx"
+      ],
+      "dataset_path": "openGPT-X/hellaswagx",
+      "dataset_name": "FI",
+      "training_split": "train",
+      "validation_split": "validation",
+      "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        ctx = doc[\"ctx_a\"] + \" \" + doc[\"ctx_b\"].capitalize()\n        out_doc = {\n            \"query\": preprocess(doc[\"activity_label\"] + \": \" + ctx),\n            \"choices\": [preprocess(ending) for ending in doc[\"endings\"]],\n            \"gold\": int(doc[\"label\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{query}}",
+      "doc_to_target": "{{label}}",
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 10,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_hellaswagx_fr": {
+      "task": "ogx_hellaswagx_fr",
+      "group": [
+        "multiple_choice",
+        "hellaswagx"
+      ],
+      "dataset_path": "openGPT-X/hellaswagx",
+      "dataset_name": "FR",
+      "training_split": "train",
+      "validation_split": "validation",
+      "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        ctx = doc[\"ctx_a\"] + \" \" + doc[\"ctx_b\"].capitalize()\n        out_doc = {\n            \"query\": preprocess(doc[\"activity_label\"] + \": \" + ctx),\n            \"choices\": [preprocess(ending) for ending in doc[\"endings\"]],\n            \"gold\": int(doc[\"label\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{query}}",
+      "doc_to_target": "{{label}}",
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 10,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_hellaswagx_hu": {
+      "task": "ogx_hellaswagx_hu",
+      "group": [
+        "multiple_choice",
+        "hellaswagx"
+      ],
+      "dataset_path": "openGPT-X/hellaswagx",
+      "dataset_name": "HU",
+      "training_split": "train",
+      "validation_split": "validation",
+      "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        ctx = doc[\"ctx_a\"] + \" \" + doc[\"ctx_b\"].capitalize()\n        out_doc = {\n            \"query\": preprocess(doc[\"activity_label\"] + \": \" + ctx),\n            \"choices\": [preprocess(ending) for ending in doc[\"endings\"]],\n            \"gold\": int(doc[\"label\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{query}}",
+      "doc_to_target": "{{label}}",
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 10,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_hellaswagx_it": {
+      "task": "ogx_hellaswagx_it",
+      "group": [
+        "multiple_choice",
+        "hellaswagx"
+      ],
+      "dataset_path": "openGPT-X/hellaswagx",
+      "dataset_name": "IT",
+      "training_split": "train",
+      "validation_split": "validation",
+      "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        ctx = doc[\"ctx_a\"] + \" \" + doc[\"ctx_b\"].capitalize()\n        out_doc = {\n            \"query\": preprocess(doc[\"activity_label\"] + \": \" + ctx),\n            \"choices\": [preprocess(ending) for ending in doc[\"endings\"]],\n            \"gold\": int(doc[\"label\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{query}}",
+      "doc_to_target": "{{label}}",
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 10,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_hellaswagx_lt": {
+      "task": "ogx_hellaswagx_lt",
+      "group": [
+        "multiple_choice",
+        "hellaswagx"
+      ],
+      "dataset_path": "openGPT-X/hellaswagx",
+      "dataset_name": "LT",
+      "training_split": "train",
+      "validation_split": "validation",
+      "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        ctx = doc[\"ctx_a\"] + \" \" + doc[\"ctx_b\"].capitalize()\n        out_doc = {\n            \"query\": preprocess(doc[\"activity_label\"] + \": \" + ctx),\n            \"choices\": [preprocess(ending) for ending in doc[\"endings\"]],\n            \"gold\": int(doc[\"label\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{query}}",
+      "doc_to_target": "{{label}}",
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 10,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_hellaswagx_lv": {
+      "task": "ogx_hellaswagx_lv",
+      "group": [
+        "multiple_choice",
+        "hellaswagx"
+      ],
+      "dataset_path": "openGPT-X/hellaswagx",
+      "dataset_name": "LV",
+      "training_split": "train",
+      "validation_split": "validation",
+      "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        ctx = doc[\"ctx_a\"] + \" \" + doc[\"ctx_b\"].capitalize()\n        out_doc = {\n            \"query\": preprocess(doc[\"activity_label\"] + \": \" + ctx),\n            \"choices\": [preprocess(ending) for ending in doc[\"endings\"]],\n            \"gold\": int(doc[\"label\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{query}}",
+      "doc_to_target": "{{label}}",
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 10,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_hellaswagx_nl": {
+      "task": "ogx_hellaswagx_nl",
+      "group": [
+        "multiple_choice",
+        "hellaswagx"
+      ],
+      "dataset_path": "openGPT-X/hellaswagx",
+      "dataset_name": "NL",
+      "training_split": "train",
+      "validation_split": "validation",
+      "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        ctx = doc[\"ctx_a\"] + \" \" + doc[\"ctx_b\"].capitalize()\n        out_doc = {\n            \"query\": preprocess(doc[\"activity_label\"] + \": \" + ctx),\n            \"choices\": [preprocess(ending) for ending in doc[\"endings\"]],\n            \"gold\": int(doc[\"label\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{query}}",
+      "doc_to_target": "{{label}}",
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 10,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_hellaswagx_pl": {
+      "task": "ogx_hellaswagx_pl",
+      "group": [
+        "multiple_choice",
+        "hellaswagx"
+      ],
+      "dataset_path": "openGPT-X/hellaswagx",
+      "dataset_name": "PL",
+      "training_split": "train",
+      "validation_split": "validation",
+      "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        ctx = doc[\"ctx_a\"] + \" \" + doc[\"ctx_b\"].capitalize()\n        out_doc = {\n            \"query\": preprocess(doc[\"activity_label\"] + \": \" + ctx),\n            \"choices\": [preprocess(ending) for ending in doc[\"endings\"]],\n            \"gold\": int(doc[\"label\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{query}}",
+      "doc_to_target": "{{label}}",
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 10,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_hellaswagx_pt-pt": {
+      "task": "ogx_hellaswagx_pt-pt",
+      "group": [
+        "multiple_choice",
+        "hellaswagx"
+      ],
+      "dataset_path": "openGPT-X/hellaswagx",
+      "dataset_name": "PT-PT",
+      "training_split": "train",
+      "validation_split": "validation",
+      "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        ctx = doc[\"ctx_a\"] + \" \" + doc[\"ctx_b\"].capitalize()\n        out_doc = {\n            \"query\": preprocess(doc[\"activity_label\"] + \": \" + ctx),\n            \"choices\": [preprocess(ending) for ending in doc[\"endings\"]],\n            \"gold\": int(doc[\"label\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{query}}",
+      "doc_to_target": "{{label}}",
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 10,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_hellaswagx_ro": {
+      "task": "ogx_hellaswagx_ro",
+      "group": [
+        "multiple_choice",
+        "hellaswagx"
+      ],
+      "dataset_path": "openGPT-X/hellaswagx",
+      "dataset_name": "RO",
+      "training_split": "train",
+      "validation_split": "validation",
+      "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        ctx = doc[\"ctx_a\"] + \" \" + doc[\"ctx_b\"].capitalize()\n        out_doc = {\n            \"query\": preprocess(doc[\"activity_label\"] + \": \" + ctx),\n            \"choices\": [preprocess(ending) for ending in doc[\"endings\"]],\n            \"gold\": int(doc[\"label\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{query}}",
+      "doc_to_target": "{{label}}",
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 10,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_hellaswagx_sk": {
+      "task": "ogx_hellaswagx_sk",
+      "group": [
+        "multiple_choice",
+        "hellaswagx"
+      ],
+      "dataset_path": "openGPT-X/hellaswagx",
+      "dataset_name": "SK",
+      "training_split": "train",
+      "validation_split": "validation",
+      "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        ctx = doc[\"ctx_a\"] + \" \" + doc[\"ctx_b\"].capitalize()\n        out_doc = {\n            \"query\": preprocess(doc[\"activity_label\"] + \": \" + ctx),\n            \"choices\": [preprocess(ending) for ending in doc[\"endings\"]],\n            \"gold\": int(doc[\"label\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{query}}",
+      "doc_to_target": "{{label}}",
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 10,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_hellaswagx_sl": {
+      "task": "ogx_hellaswagx_sl",
+      "group": [
+        "multiple_choice",
+        "hellaswagx"
+      ],
+      "dataset_path": "openGPT-X/hellaswagx",
+      "dataset_name": "SL",
+      "training_split": "train",
+      "validation_split": "validation",
+      "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        ctx = doc[\"ctx_a\"] + \" \" + doc[\"ctx_b\"].capitalize()\n        out_doc = {\n            \"query\": preprocess(doc[\"activity_label\"] + \": \" + ctx),\n            \"choices\": [preprocess(ending) for ending in doc[\"endings\"]],\n            \"gold\": int(doc[\"label\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{query}}",
+      "doc_to_target": "{{label}}",
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 10,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_hellaswagx_sv": {
+      "task": "ogx_hellaswagx_sv",
+      "group": [
+        "multiple_choice",
+        "hellaswagx"
+      ],
+      "dataset_path": "openGPT-X/hellaswagx",
+      "dataset_name": "SV",
+      "training_split": "train",
+      "validation_split": "validation",
+      "process_docs": "def process_docs(dataset: datasets.Dataset) -> datasets.Dataset:\n    def _process_doc(doc):\n        ctx = doc[\"ctx_a\"] + \" \" + doc[\"ctx_b\"].capitalize()\n        out_doc = {\n            \"query\": preprocess(doc[\"activity_label\"] + \": \" + ctx),\n            \"choices\": [preprocess(ending) for ending in doc[\"endings\"]],\n            \"gold\": int(doc[\"label\"]),\n        }\n        return out_doc\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{query}}",
+      "doc_to_target": "{{label}}",
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 10,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    }
+  },
+  "versions": {
+    "ogx_hellaswagx_bg": 1,
+    "ogx_hellaswagx_cs": 1,
+    "ogx_hellaswagx_da": 1,
+    "ogx_hellaswagx_de": 1,
+    "ogx_hellaswagx_el": 1,
+    "ogx_hellaswagx_es": 1,
+    "ogx_hellaswagx_et": 1,
+    "ogx_hellaswagx_fi": 1,
+    "ogx_hellaswagx_fr": 1,
+    "ogx_hellaswagx_hu": 1,
+    "ogx_hellaswagx_it": 1,
+    "ogx_hellaswagx_lt": 1,
+    "ogx_hellaswagx_lv": 1,
+    "ogx_hellaswagx_nl": 1,
+    "ogx_hellaswagx_pl": 1,
+    "ogx_hellaswagx_pt-pt": 1,
+    "ogx_hellaswagx_ro": 1,
+    "ogx_hellaswagx_sk": 1,
+    "ogx_hellaswagx_sl": 1,
+    "ogx_hellaswagx_sv": 1
+  },
+  "n-shot": {
+    "ogx_hellaswagx_bg": 10,
+    "ogx_hellaswagx_cs": 10,
+    "ogx_hellaswagx_da": 10,
+    "ogx_hellaswagx_de": 10,
+    "ogx_hellaswagx_el": 10,
+    "ogx_hellaswagx_es": 10,
+    "ogx_hellaswagx_et": 10,
+    "ogx_hellaswagx_fi": 10,
+    "ogx_hellaswagx_fr": 10,
+    "ogx_hellaswagx_hu": 10,
+    "ogx_hellaswagx_it": 10,
+    "ogx_hellaswagx_lt": 10,
+    "ogx_hellaswagx_lv": 10,
+    "ogx_hellaswagx_nl": 10,
+    "ogx_hellaswagx_pl": 10,
+    "ogx_hellaswagx_pt-pt": 10,
+    "ogx_hellaswagx_ro": 10,
+    "ogx_hellaswagx_sk": 10,
+    "ogx_hellaswagx_sl": 10,
+    "ogx_hellaswagx_sv": 10
+  },
+  "higher_is_better": {
+    "ogx_hellaswagx_bg": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "ogx_hellaswagx_cs": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "ogx_hellaswagx_da": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "ogx_hellaswagx_de": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "ogx_hellaswagx_el": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "ogx_hellaswagx_es": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "ogx_hellaswagx_et": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "ogx_hellaswagx_fi": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "ogx_hellaswagx_fr": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "ogx_hellaswagx_hu": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "ogx_hellaswagx_it": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "ogx_hellaswagx_lt": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "ogx_hellaswagx_lv": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "ogx_hellaswagx_nl": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "ogx_hellaswagx_pl": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "ogx_hellaswagx_pt-pt": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "ogx_hellaswagx_ro": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "ogx_hellaswagx_sk": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "ogx_hellaswagx_sl": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "ogx_hellaswagx_sv": {
+      "acc": true,
+      "acc_norm": true
+    }
+  },
+  "n-samples": {
+    "ogx_hellaswagx_sv": {
+      "original": 10042,
+      "effective": 10042
+    },
+    "ogx_hellaswagx_sl": {
+      "original": 10042,
+      "effective": 10042
+    },
+    "ogx_hellaswagx_sk": {
+      "original": 10042,
+      "effective": 10042
+    },
+    "ogx_hellaswagx_ro": {
+      "original": 10042,
+      "effective": 10042
+    },
+    "ogx_hellaswagx_pt-pt": {
+      "original": 10042,
+      "effective": 10042
+    },
+    "ogx_hellaswagx_pl": {
+      "original": 10042,
+      "effective": 10042
+    },
+    "ogx_hellaswagx_nl": {
+      "original": 10042,
+      "effective": 10042
+    },
+    "ogx_hellaswagx_lv": {
+      "original": 10042,
+      "effective": 10042
+    },
+    "ogx_hellaswagx_lt": {
+      "original": 10042,
+      "effective": 10042
+    },
+    "ogx_hellaswagx_it": {
+      "original": 10038,
+      "effective": 10038
+    },
+    "ogx_hellaswagx_hu": {
+      "original": 10042,
+      "effective": 10042
+    },
+    "ogx_hellaswagx_fr": {
+      "original": 10038,
+      "effective": 10038
+    },
+    "ogx_hellaswagx_fi": {
+      "original": 10042,
+      "effective": 10042
+    },
+    "ogx_hellaswagx_et": {
+      "original": 10042,
+      "effective": 10042
+    },
+    "ogx_hellaswagx_es": {
+      "original": 10038,
+      "effective": 10038
+    },
+    "ogx_hellaswagx_el": {
+      "original": 10042,
+      "effective": 10042
+    },
+    "ogx_hellaswagx_de": {
+      "original": 9979,
+      "effective": 9979
+    },
+    "ogx_hellaswagx_da": {
+      "original": 10042,
+      "effective": 10042
+    },
+    "ogx_hellaswagx_cs": {
+      "original": 10042,
+      "effective": 10042
+    },
+    "ogx_hellaswagx_bg": {
+      "original": 10042,
+      "effective": 10042
+    }
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=occiglot/occiglot-7b-eu5-instruct,dtype=bfloat16,trust_remote_code=True,nccl_timeout=3600,trust_remote_code=True",
+    "model_num_parameters": 7241748480,
+    "model_dtype": "torch.bfloat16",
+    "model_revision": "main",
+    "model_sha": "d13d3d7311bb5b995ded5b065bb583b5ddd8943e",
+    "batch_size": "2",
+    "batch_sizes": [],
+    "device": null,
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100,
+    "gen_kwargs": null,
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "git_hash": "43468b99",
+  "date": 1741276583.9204323,
+  "pretty_env_info": "PyTorch version: 2.6.0+cu124\nIs debug build: False\nCUDA used to build PyTorch: 12.4\nROCM used to build PyTorch: N/A\n\nOS: Ubuntu 22.04.3 LTS (x86_64)\nGCC version: (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0\nClang version: Could not collect\nCMake version: Could not collect\nLibc version: glibc-2.35\n\nPython version: 3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0] (64-bit runtime)\nPython platform: Linux-6.8.0-39-generic-x86_64-with-glibc2.35\nIs CUDA available: True\nCUDA runtime version: 12.1.105\nCUDA_MODULE_LOADING set to: LAZY\nGPU models and configuration: GPU 0: NVIDIA H100 80GB HBM3\nNvidia driver version: 555.42.06\ncuDNN version: Probably one of the following:\n/usr/lib/x86_64-linux-gnu/libcudnn.so.8.9.0\n/usr/lib/x86_64-linux-gnu/libcudnn_adv_infer.so.8.9.0\n/usr/lib/x86_64-linux-gnu/libcudnn_adv_train.so.8.9.0\n/usr/lib/x86_64-linux-gnu/libcudnn_cnn_infer.so.8.9.0\n/usr/lib/x86_64-linux-gnu/libcudnn_cnn_train.so.8.9.0\n/usr/lib/x86_64-linux-gnu/libcudnn_ops_infer.so.8.9.0\n/usr/lib/x86_64-linux-gnu/libcudnn_ops_train.so.8.9.0\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: True\n\nCPU:\nArchitecture:                         x86_64\nCPU op-mode(s):                       32-bit, 64-bit\nAddress sizes:                        48 bits physical, 57 bits virtual\nByte Order:                           Little Endian\nCPU(s):                               192\nOn-line CPU(s) list:                  0-191\nVendor ID:                            GenuineIntel\nModel name:                           Intel(R) Xeon(R) Platinum 8468\nCPU family:                           6\nModel:                                143\nThread(s) per core:                   1\nCore(s) per socket:                   1\nSocket(s):                            192\nStepping:                             8\nBogoMIPS:                             4200.00\nFlags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology cpuid tsc_known_freq pni pclmulqdq dtes64 vmx ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves avx_vnni avx512_bf16 wbnoinvd arat vnmi avx512vbmi umip pku ospke waitpkg avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq la57 rdpid bus_lock_detect cldemote movdiri movdir64b fsrm md_clear serialize tsxldtrk amx_bf16 avx512_fp16 amx_tile amx_int8 flush_l1d arch_capabilities\nVirtualization:                       VT-x\nHypervisor vendor:                    KVM\nVirtualization type:                  full\nL1d cache:                            6 MiB (192 instances)\nL1i cache:                            6 MiB (192 instances)\nL2 cache:                             768 MiB (192 instances)\nL3 cache:                             3 GiB (192 instances)\nNUMA node(s):                         1\nNUMA node0 CPU(s):                    0-191\nVulnerability Gather data sampling:   Not affected\nVulnerability Itlb multihit:          Not affected\nVulnerability L1tf:                   Not affected\nVulnerability Mds:                    Not affected\nVulnerability Meltdown:               Not affected\nVulnerability Mmio stale data:        Not affected\nVulnerability Reg file data sampling: Not affected\nVulnerability Retbleed:               Not affected\nVulnerability Spec rstack overflow:   Not affected\nVulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:             Mitigation; Enhanced / Automatic IBRS; IBPB conditional; RSB filling; PBRSB-eIBRS SW sequence; BHI SW loop, KVM SW loop\nVulnerability Srbds:                  Not affected\nVulnerability Tsx async abort:        Mitigation; TSX disabled\n\nVersions of relevant libraries:\n[pip3] mypy-extensions==1.0.0\n[pip3] numpy==1.26.4\n[pip3] nvidia-cublas-cu12==12.4.5.8\n[pip3] nvidia-cuda-cupti-cu12==12.4.127\n[pip3] nvidia-cuda-nvrtc-cu12==12.4.127\n[pip3] nvidia-cuda-runtime-cu12==12.4.127\n[pip3] nvidia-cudnn-cu12==9.1.0.70\n[pip3] nvidia-cufft-cu12==11.2.1.3\n[pip3] nvidia-curand-cu12==10.3.5.147\n[pip3] nvidia-cusolver-cu12==11.6.1.9\n[pip3] nvidia-cusparse-cu12==12.3.1.170\n[pip3] nvidia-cusparselt-cu12==0.6.2\n[pip3] nvidia-nccl-cu12==2.21.5\n[pip3] nvidia-nvjitlink-cu12==12.4.127\n[pip3] nvidia-nvtx-cu12==12.4.127\n[pip3] onnx==1.17.0\n[pip3] onnxruntime==1.20.1\n[pip3] onnxruntime-tools==1.7.0\n[pip3] torch==2.6.0\n[pip3] torchaudio==2.6.0\n[pip3] torchvision==0.21.0\n[pip3] triton==3.2.0\n[conda] Could not collect",
+  "transformers_version": "4.47.1",
+  "upper_git_hash": null,
+  "tokenizer_pad_token": [
+    "</s>",
+    2
+  ],
+  "tokenizer_eos_token": [
+    "</s>",
+    2
+  ],
+  "tokenizer_bos_token": [
+    "<s>",
+    1
+  ],
+  "eot_token_id": 2,
+  "max_length": 32768,
+  "task_hashes": {},
+  "model_source": "hf",
+  "model_name": "occiglot/occiglot-7b-eu5-instruct",
+  "model_name_sanitized": "occiglot__occiglot-7b-eu5-instruct",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": true,
+  "chat_template": "{{'<s>'}}{% if messages[0]['role'] == 'system' %}{% set loop_messages = messages[1:] %}{% set system_message = messages[0]['content'] %}{% else %}{% set loop_messages = messages %}{% set system_message = 'You are a helpful assistant. Please give a long and detailed answer.' %}{% endif %}{% if not add_generation_prompt is defined %}{% set add_generation_prompt = false %}{% endif %}{% for message in loop_messages %}{% if loop.index0 == 0 %}{{'<|im_start|>system\n' + system_message + '<|im_end|>\n'}}{% endif %}{{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n'}}{% endfor %}{% if add_generation_prompt %}{{ '<|im_start|>assistant\n' }}{% endif %}",
+  "chat_template_sha": "be4ad817aa1cb66200728af5e79eefc9a3b73d6c537208ef3a45a4fdf9532177",
+  "start_time": 18677218.56475569,
+  "end_time": 18744241.15764169,
+  "total_evaluation_time_seconds": "67022.59288600087"
+}

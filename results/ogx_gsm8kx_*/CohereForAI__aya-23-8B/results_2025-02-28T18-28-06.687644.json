@@ -1,0 +1,1166 @@
+{
+  "results": {
+    "ogx_gsm8kx_sv": {
+      "acc,none": 0.2714177407126611,
+      "acc_stderr,none": 0.012249002026150592,
+      "alias": "ogx_gsm8kx_sv"
+    },
+    "ogx_gsm8kx_sl": {
+      "acc,none": 0.1819560272934041,
+      "acc_stderr,none": 0.010627077371675795,
+      "alias": "ogx_gsm8kx_sl"
+    },
+    "ogx_gsm8kx_sk": {
+      "acc,none": 0.24184988627748294,
+      "acc_stderr,none": 0.011794861371318714,
+      "alias": "ogx_gsm8kx_sk"
+    },
+    "ogx_gsm8kx_ro": {
+      "acc,none": 0.34950720242608035,
+      "acc_stderr,none": 0.01313383651170599,
+      "alias": "ogx_gsm8kx_ro"
+    },
+    "ogx_gsm8kx_pt-pt": {
+      "acc,none": 0.33510235026535257,
+      "acc_stderr,none": 0.013001948176422943,
+      "alias": "ogx_gsm8kx_pt-pt"
+    },
+    "ogx_gsm8kx_pl": {
+      "acc,none": 0.3214556482183472,
+      "acc_stderr,none": 0.012864471384836705,
+      "alias": "ogx_gsm8kx_pl"
+    },
+    "ogx_gsm8kx_nl": {
+      "acc,none": 0.3570887035633055,
+      "acc_stderr,none": 0.01319793177544521,
+      "alias": "ogx_gsm8kx_nl"
+    },
+    "ogx_gsm8kx_lv": {
+      "acc,none": 0.09552691432903715,
+      "acc_stderr,none": 0.008096605771155743,
+      "alias": "ogx_gsm8kx_lv"
+    },
+    "ogx_gsm8kx_lt": {
+      "acc,none": 0.16679302501895377,
+      "acc_stderr,none": 0.010268516042629511,
+      "alias": "ogx_gsm8kx_lt"
+    },
+    "ogx_gsm8kx_it": {
+      "acc,none": 0.36694465504169826,
+      "acc_stderr,none": 0.013275883047712213,
+      "alias": "ogx_gsm8kx_it"
+    },
+    "ogx_gsm8kx_hu": {
+      "acc,none": 0.11675511751326763,
+      "acc_stderr,none": 0.0088454681369191,
+      "alias": "ogx_gsm8kx_hu"
+    },
+    "ogx_gsm8kx_fr": {
+      "acc,none": 0.3646702047005307,
+      "acc_stderr,none": 0.013258428375662245,
+      "alias": "ogx_gsm8kx_fr"
+    },
+    "ogx_gsm8kx_fi": {
+      "acc,none": 0.11296436694465505,
+      "acc_stderr,none": 0.00871933902883305,
+      "alias": "ogx_gsm8kx_fi"
+    },
+    "ogx_gsm8kx_et": {
+      "acc,none": 0.09249431387414708,
+      "acc_stderr,none": 0.007980396874560173,
+      "alias": "ogx_gsm8kx_et"
+    },
+    "ogx_gsm8kx_es": {
+      "acc,none": 0.3646702047005307,
+      "acc_stderr,none": 0.013258428375662245,
+      "alias": "ogx_gsm8kx_es"
+    },
+    "ogx_gsm8kx_el": {
+      "acc,none": 0.3525398028809704,
+      "acc_stderr,none": 0.013159909755930328,
+      "alias": "ogx_gsm8kx_el"
+    },
+    "ogx_gsm8kx_de": {
+      "acc,none": 0.3366186504927976,
+      "acc_stderr,none": 0.013016463679983364,
+      "alias": "ogx_gsm8kx_de"
+    },
+    "ogx_gsm8kx_da": {
+      "acc,none": 0.2312357846853677,
+      "acc_stderr,none": 0.011613587503166616,
+      "alias": "ogx_gsm8kx_da"
+    },
+    "ogx_gsm8kx_cs": {
+      "acc,none": 0.3411675511751327,
+      "acc_stderr,none": 0.01305911193583149,
+      "alias": "ogx_gsm8kx_cs"
+    },
+    "ogx_gsm8kx_bg": {
+      "acc,none": 0.20621683093252463,
+      "acc_stderr,none": 0.011144364089781441,
+      "alias": "ogx_gsm8kx_bg"
+    }
+  },
+  "group_subtasks": {
+    "ogx_gsm8kx_bg": [],
+    "ogx_gsm8kx_cs": [],
+    "ogx_gsm8kx_da": [],
+    "ogx_gsm8kx_de": [],
+    "ogx_gsm8kx_el": [],
+    "ogx_gsm8kx_es": [],
+    "ogx_gsm8kx_et": [],
+    "ogx_gsm8kx_fi": [],
+    "ogx_gsm8kx_fr": [],
+    "ogx_gsm8kx_hu": [],
+    "ogx_gsm8kx_it": [],
+    "ogx_gsm8kx_lt": [],
+    "ogx_gsm8kx_lv": [],
+    "ogx_gsm8kx_nl": [],
+    "ogx_gsm8kx_pl": [],
+    "ogx_gsm8kx_pt-pt": [],
+    "ogx_gsm8kx_ro": [],
+    "ogx_gsm8kx_sk": [],
+    "ogx_gsm8kx_sl": [],
+    "ogx_gsm8kx_sv": []
+  },
+  "configs": {
+    "ogx_gsm8kx_bg": {
+      "task": "ogx_gsm8kx_bg",
+      "group": [
+        "math_word_problems",
+        "gsm8kx"
+      ],
+      "dataset_path": "openGPT-X/gsm8kx",
+      "dataset_name": "BG",
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Въпрос: {{question}}\nОтговор:",
+      "doc_to_target": "{{answer}}",
+      "process_results": "def process_results(doc, results):\n    completion = results[0]\n    answer = doc[\"answer\"]\n    return {\"acc\": _is_correct(completion, answer)}\n",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "Въпрос:"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_gsm8kx_cs": {
+      "task": "ogx_gsm8kx_cs",
+      "group": [
+        "math_word_problems",
+        "gsm8kx"
+      ],
+      "dataset_path": "openGPT-X/gsm8kx",
+      "dataset_name": "CS",
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Otázka: {{question}}\nOdpověď:",
+      "doc_to_target": "{{answer}}",
+      "process_results": "def process_results(doc, results):\n    completion = results[0]\n    answer = doc[\"answer\"]\n    return {\"acc\": _is_correct(completion, answer)}\n",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "Otázka:"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_gsm8kx_da": {
+      "task": "ogx_gsm8kx_da",
+      "group": [
+        "math_word_problems",
+        "gsm8kx"
+      ],
+      "dataset_path": "openGPT-X/gsm8kx",
+      "dataset_name": "DA",
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Spørgsmål: {{question}}\nSvar:",
+      "doc_to_target": "{{answer}}",
+      "process_results": "def process_results(doc, results):\n    completion = results[0]\n    answer = doc[\"answer\"]\n    return {\"acc\": _is_correct(completion, answer)}\n",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "Spørgsmål:"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_gsm8kx_de": {
+      "task": "ogx_gsm8kx_de",
+      "group": [
+        "math_word_problems",
+        "gsm8kx"
+      ],
+      "dataset_path": "openGPT-X/gsm8kx",
+      "dataset_name": "DE",
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Frage: {{question}}\nAntwort:",
+      "doc_to_target": "{{answer}}",
+      "process_results": "def process_results(doc, results):\n    completion = results[0]\n    answer = doc[\"answer\"]\n    return {\"acc\": _is_correct(completion, answer)}\n",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "Frage:"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_gsm8kx_el": {
+      "task": "ogx_gsm8kx_el",
+      "group": [
+        "math_word_problems",
+        "gsm8kx"
+      ],
+      "dataset_path": "openGPT-X/gsm8kx",
+      "dataset_name": "EL",
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Ερώτηση: {{question}}\nΑπάντηση:",
+      "doc_to_target": "{{answer}}",
+      "process_results": "def process_results(doc, results):\n    completion = results[0]\n    answer = doc[\"answer\"]\n    return {\"acc\": _is_correct(completion, answer)}\n",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "Ερώτηση:"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_gsm8kx_es": {
+      "task": "ogx_gsm8kx_es",
+      "group": [
+        "math_word_problems",
+        "gsm8kx"
+      ],
+      "dataset_path": "openGPT-X/gsm8kx",
+      "dataset_name": "ES",
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Pregunta: {{question}}\nRespuesta:",
+      "doc_to_target": "{{answer}}",
+      "process_results": "def process_results(doc, results):\n    completion = results[0]\n    answer = doc[\"answer\"]\n    return {\"acc\": _is_correct(completion, answer)}\n",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "Pregunta:"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_gsm8kx_et": {
+      "task": "ogx_gsm8kx_et",
+      "group": [
+        "math_word_problems",
+        "gsm8kx"
+      ],
+      "dataset_path": "openGPT-X/gsm8kx",
+      "dataset_name": "ET",
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Küsimus: {{question}}\nVastus:",
+      "doc_to_target": "{{answer}}",
+      "process_results": "def process_results(doc, results):\n    completion = results[0]\n    answer = doc[\"answer\"]\n    return {\"acc\": _is_correct(completion, answer)}\n",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "Küsimus:"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_gsm8kx_fi": {
+      "task": "ogx_gsm8kx_fi",
+      "group": [
+        "math_word_problems",
+        "gsm8kx"
+      ],
+      "dataset_path": "openGPT-X/gsm8kx",
+      "dataset_name": "FI",
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Kysymys: {{question}}\nVastaa:",
+      "doc_to_target": "{{answer}}",
+      "process_results": "def process_results(doc, results):\n    completion = results[0]\n    answer = doc[\"answer\"]\n    return {\"acc\": _is_correct(completion, answer)}\n",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "Kysymys:"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_gsm8kx_fr": {
+      "task": "ogx_gsm8kx_fr",
+      "group": [
+        "math_word_problems",
+        "gsm8kx"
+      ],
+      "dataset_path": "openGPT-X/gsm8kx",
+      "dataset_name": "FR",
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Question: {{question}}\nRéponse:",
+      "doc_to_target": "{{answer}}",
+      "process_results": "def process_results(doc, results):\n    completion = results[0]\n    answer = doc[\"answer\"]\n    return {\"acc\": _is_correct(completion, answer)}\n",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "Question:"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_gsm8kx_hu": {
+      "task": "ogx_gsm8kx_hu",
+      "group": [
+        "math_word_problems",
+        "gsm8kx"
+      ],
+      "dataset_path": "openGPT-X/gsm8kx",
+      "dataset_name": "HU",
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Kérdés: {{question}}\nVálasz:",
+      "doc_to_target": "{{answer}}",
+      "process_results": "def process_results(doc, results):\n    completion = results[0]\n    answer = doc[\"answer\"]\n    return {\"acc\": _is_correct(completion, answer)}\n",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "Kérdés:"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_gsm8kx_it": {
+      "task": "ogx_gsm8kx_it",
+      "group": [
+        "math_word_problems",
+        "gsm8kx"
+      ],
+      "dataset_path": "openGPT-X/gsm8kx",
+      "dataset_name": "IT",
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Domanda: {{question}}\nRisposta:",
+      "doc_to_target": "{{answer}}",
+      "process_results": "def process_results(doc, results):\n    completion = results[0]\n    answer = doc[\"answer\"]\n    return {\"acc\": _is_correct(completion, answer)}\n",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "Domanda:"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_gsm8kx_lt": {
+      "task": "ogx_gsm8kx_lt",
+      "group": [
+        "math_word_problems",
+        "gsm8kx"
+      ],
+      "dataset_path": "openGPT-X/gsm8kx",
+      "dataset_name": "LT",
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Klausimas: {{question}}\nAtsakymas:",
+      "doc_to_target": "{{answer}}",
+      "process_results": "def process_results(doc, results):\n    completion = results[0]\n    answer = doc[\"answer\"]\n    return {\"acc\": _is_correct(completion, answer)}\n",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "Klausimas:"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_gsm8kx_lv": {
+      "task": "ogx_gsm8kx_lv",
+      "group": [
+        "math_word_problems",
+        "gsm8kx"
+      ],
+      "dataset_path": "openGPT-X/gsm8kx",
+      "dataset_name": "LV",
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Jautājums: {{question}}\nAtbilde:",
+      "doc_to_target": "{{answer}}",
+      "process_results": "def process_results(doc, results):\n    completion = results[0]\n    answer = doc[\"answer\"]\n    return {\"acc\": _is_correct(completion, answer)}\n",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "Jautājums:"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_gsm8kx_nl": {
+      "task": "ogx_gsm8kx_nl",
+      "group": [
+        "math_word_problems",
+        "gsm8kx"
+      ],
+      "dataset_path": "openGPT-X/gsm8kx",
+      "dataset_name": "NL",
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Vraag: {{question}}\nAntwoord:",
+      "doc_to_target": "{{answer}}",
+      "process_results": "def process_results(doc, results):\n    completion = results[0]\n    answer = doc[\"answer\"]\n    return {\"acc\": _is_correct(completion, answer)}\n",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "Vraag:"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_gsm8kx_pl": {
+      "task": "ogx_gsm8kx_pl",
+      "group": [
+        "math_word_problems",
+        "gsm8kx"
+      ],
+      "dataset_path": "openGPT-X/gsm8kx",
+      "dataset_name": "PL",
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Pytanie: {{question}}\nOdpowiedź:",
+      "doc_to_target": "{{answer}}",
+      "process_results": "def process_results(doc, results):\n    completion = results[0]\n    answer = doc[\"answer\"]\n    return {\"acc\": _is_correct(completion, answer)}\n",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "Pytanie:"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_gsm8kx_pt-pt": {
+      "task": "ogx_gsm8kx_pt-pt",
+      "group": [
+        "math_word_problems",
+        "gsm8kx"
+      ],
+      "dataset_path": "openGPT-X/gsm8kx",
+      "dataset_name": "PT-PT",
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Questão: {{question}}\nResposta:",
+      "doc_to_target": "{{answer}}",
+      "process_results": "def process_results(doc, results):\n    completion = results[0]\n    answer = doc[\"answer\"]\n    return {\"acc\": _is_correct(completion, answer)}\n",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "Questão:"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_gsm8kx_ro": {
+      "task": "ogx_gsm8kx_ro",
+      "group": [
+        "math_word_problems",
+        "gsm8kx"
+      ],
+      "dataset_path": "openGPT-X/gsm8kx",
+      "dataset_name": "RO",
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Întrebare: {{question}}\nRăspuns:",
+      "doc_to_target": "{{answer}}",
+      "process_results": "def process_results(doc, results):\n    completion = results[0]\n    answer = doc[\"answer\"]\n    return {\"acc\": _is_correct(completion, answer)}\n",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "Întrebare:"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_gsm8kx_sk": {
+      "task": "ogx_gsm8kx_sk",
+      "group": [
+        "math_word_problems",
+        "gsm8kx"
+      ],
+      "dataset_path": "openGPT-X/gsm8kx",
+      "dataset_name": "SK",
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Otázka: {{question}}\nOdpoveď:",
+      "doc_to_target": "{{answer}}",
+      "process_results": "def process_results(doc, results):\n    completion = results[0]\n    answer = doc[\"answer\"]\n    return {\"acc\": _is_correct(completion, answer)}\n",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "Otázka:"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_gsm8kx_sl": {
+      "task": "ogx_gsm8kx_sl",
+      "group": [
+        "math_word_problems",
+        "gsm8kx"
+      ],
+      "dataset_path": "openGPT-X/gsm8kx",
+      "dataset_name": "SL",
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Vprašanje: {{question}}\nOdgovor:",
+      "doc_to_target": "{{answer}}",
+      "process_results": "def process_results(doc, results):\n    completion = results[0]\n    answer = doc[\"answer\"]\n    return {\"acc\": _is_correct(completion, answer)}\n",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "Vprašanje:"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    },
+    "ogx_gsm8kx_sv": {
+      "task": "ogx_gsm8kx_sv",
+      "group": [
+        "math_word_problems",
+        "gsm8kx"
+      ],
+      "dataset_path": "openGPT-X/gsm8kx",
+      "dataset_name": "SV",
+      "training_split": "train",
+      "test_split": "test",
+      "fewshot_split": "train",
+      "doc_to_text": "Fråga: {{question}}\nSvar:",
+      "doc_to_target": "{{answer}}",
+      "process_results": "def process_results(doc, results):\n    completion = results[0]\n    answer = doc[\"answer\"]\n    return {\"acc\": _is_correct(completion, answer)}\n",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "Fråga:"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1
+      }
+    }
+  },
+  "versions": {
+    "ogx_gsm8kx_bg": 1,
+    "ogx_gsm8kx_cs": 1,
+    "ogx_gsm8kx_da": 1,
+    "ogx_gsm8kx_de": 1,
+    "ogx_gsm8kx_el": 1,
+    "ogx_gsm8kx_es": 1,
+    "ogx_gsm8kx_et": 1,
+    "ogx_gsm8kx_fi": 1,
+    "ogx_gsm8kx_fr": 1,
+    "ogx_gsm8kx_hu": 1,
+    "ogx_gsm8kx_it": 1,
+    "ogx_gsm8kx_lt": 1,
+    "ogx_gsm8kx_lv": 1,
+    "ogx_gsm8kx_nl": 1,
+    "ogx_gsm8kx_pl": 1,
+    "ogx_gsm8kx_pt-pt": 1,
+    "ogx_gsm8kx_ro": 1,
+    "ogx_gsm8kx_sk": 1,
+    "ogx_gsm8kx_sl": 1,
+    "ogx_gsm8kx_sv": 1
+  },
+  "n-shot": {
+    "ogx_gsm8kx_bg": 5,
+    "ogx_gsm8kx_cs": 5,
+    "ogx_gsm8kx_da": 5,
+    "ogx_gsm8kx_de": 5,
+    "ogx_gsm8kx_el": 5,
+    "ogx_gsm8kx_es": 5,
+    "ogx_gsm8kx_et": 5,
+    "ogx_gsm8kx_fi": 5,
+    "ogx_gsm8kx_fr": 5,
+    "ogx_gsm8kx_hu": 5,
+    "ogx_gsm8kx_it": 5,
+    "ogx_gsm8kx_lt": 5,
+    "ogx_gsm8kx_lv": 5,
+    "ogx_gsm8kx_nl": 5,
+    "ogx_gsm8kx_pl": 5,
+    "ogx_gsm8kx_pt-pt": 5,
+    "ogx_gsm8kx_ro": 5,
+    "ogx_gsm8kx_sk": 5,
+    "ogx_gsm8kx_sl": 5,
+    "ogx_gsm8kx_sv": 5
+  },
+  "higher_is_better": {
+    "ogx_gsm8kx_bg": {
+      "acc": true
+    },
+    "ogx_gsm8kx_cs": {
+      "acc": true
+    },
+    "ogx_gsm8kx_da": {
+      "acc": true
+    },
+    "ogx_gsm8kx_de": {
+      "acc": true
+    },
+    "ogx_gsm8kx_el": {
+      "acc": true
+    },
+    "ogx_gsm8kx_es": {
+      "acc": true
+    },
+    "ogx_gsm8kx_et": {
+      "acc": true
+    },
+    "ogx_gsm8kx_fi": {
+      "acc": true
+    },
+    "ogx_gsm8kx_fr": {
+      "acc": true
+    },
+    "ogx_gsm8kx_hu": {
+      "acc": true
+    },
+    "ogx_gsm8kx_it": {
+      "acc": true
+    },
+    "ogx_gsm8kx_lt": {
+      "acc": true
+    },
+    "ogx_gsm8kx_lv": {
+      "acc": true
+    },
+    "ogx_gsm8kx_nl": {
+      "acc": true
+    },
+    "ogx_gsm8kx_pl": {
+      "acc": true
+    },
+    "ogx_gsm8kx_pt-pt": {
+      "acc": true
+    },
+    "ogx_gsm8kx_ro": {
+      "acc": true
+    },
+    "ogx_gsm8kx_sk": {
+      "acc": true
+    },
+    "ogx_gsm8kx_sl": {
+      "acc": true
+    },
+    "ogx_gsm8kx_sv": {
+      "acc": true
+    }
+  },
+  "n-samples": {
+    "ogx_gsm8kx_sv": {
+      "original": 1319,
+      "effective": 1319
+    },
+    "ogx_gsm8kx_sl": {
+      "original": 1319,
+      "effective": 1319
+    },
+    "ogx_gsm8kx_sk": {
+      "original": 1319,
+      "effective": 1319
+    },
+    "ogx_gsm8kx_ro": {
+      "original": 1319,
+      "effective": 1319
+    },
+    "ogx_gsm8kx_pt-pt": {
+      "original": 1319,
+      "effective": 1319
+    },
+    "ogx_gsm8kx_pl": {
+      "original": 1319,
+      "effective": 1319
+    },
+    "ogx_gsm8kx_nl": {
+      "original": 1319,
+      "effective": 1319
+    },
+    "ogx_gsm8kx_lv": {
+      "original": 1319,
+      "effective": 1319
+    },
+    "ogx_gsm8kx_lt": {
+      "original": 1319,
+      "effective": 1319
+    },
+    "ogx_gsm8kx_it": {
+      "original": 1319,
+      "effective": 1319
+    },
+    "ogx_gsm8kx_hu": {
+      "original": 1319,
+      "effective": 1319
+    },
+    "ogx_gsm8kx_fr": {
+      "original": 1319,
+      "effective": 1319
+    },
+    "ogx_gsm8kx_fi": {
+      "original": 1319,
+      "effective": 1319
+    },
+    "ogx_gsm8kx_et": {
+      "original": 1319,
+      "effective": 1319
+    },
+    "ogx_gsm8kx_es": {
+      "original": 1319,
+      "effective": 1319
+    },
+    "ogx_gsm8kx_el": {
+      "original": 1319,
+      "effective": 1319
+    },
+    "ogx_gsm8kx_de": {
+      "original": 1319,
+      "effective": 1319
+    },
+    "ogx_gsm8kx_da": {
+      "original": 1319,
+      "effective": 1319
+    },
+    "ogx_gsm8kx_cs": {
+      "original": 1319,
+      "effective": 1319
+    },
+    "ogx_gsm8kx_bg": {
+      "original": 1319,
+      "effective": 1319
+    }
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=CohereForAI/aya-23-8B,dtype=bfloat16,trust_remote_code=True,nccl_timeout=3600,trust_remote_code=True",
+    "model_num_parameters": 8028033024,
+    "model_dtype": "torch.bfloat16",
+    "model_revision": "main",
+    "model_sha": "f7c0f53641e86ef2e39c62461e6f0f54ff904eba",
+    "batch_size": "auto",
+    "batch_sizes": [],
+    "device": null,
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100,
+    "gen_kwargs": null,
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "git_hash": "43468b99",
+  "date": 1740760424.6344283,
+  "pretty_env_info": "PyTorch version: 2.6.0+cu124\nIs debug build: False\nCUDA used to build PyTorch: 12.4\nROCM used to build PyTorch: N/A\n\nOS: Ubuntu 22.04.3 LTS (x86_64)\nGCC version: (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0\nClang version: Could not collect\nCMake version: version 3.22.1\nLibc version: glibc-2.35\n\nPython version: 3.10.12 (main, Feb  4 2025, 14:57:36) [GCC 11.4.0] (64-bit runtime)\nPython platform: Linux-5.15.0-131-generic-x86_64-with-glibc2.35\nIs CUDA available: True\nCUDA runtime version: 12.0.140\nCUDA_MODULE_LOADING set to: LAZY\nGPU models and configuration: \nGPU 0: NVIDIA A100-SXM4-80GB\nGPU 1: NVIDIA A100-SXM4-80GB\nGPU 2: NVIDIA A100-SXM4-80GB\nGPU 3: NVIDIA A100-SXM4-80GB\nGPU 4: NVIDIA A100-SXM4-80GB\nGPU 5: NVIDIA A100-SXM4-80GB\nGPU 6: NVIDIA A100-SXM4-80GB\nGPU 7: NVIDIA A100-SXM4-80GB\n\nNvidia driver version: 550.144.03\ncuDNN version: Probably one of the following:\n/usr/lib/x86_64-linux-gnu/libcudnn.so.8.9.7\n/usr/lib/x86_64-linux-gnu/libcudnn_adv_infer.so.8.9.7\n/usr/lib/x86_64-linux-gnu/libcudnn_adv_train.so.8.9.7\n/usr/lib/x86_64-linux-gnu/libcudnn_cnn_infer.so.8.9.7\n/usr/lib/x86_64-linux-gnu/libcudnn_cnn_train.so.8.9.7\n/usr/lib/x86_64-linux-gnu/libcudnn_ops_infer.so.8.9.7\n/usr/lib/x86_64-linux-gnu/libcudnn_ops_train.so.8.9.7\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: True\n\nCPU:\nArchitecture:                         x86_64\nCPU op-mode(s):                       32-bit, 64-bit\nAddress sizes:                        43 bits physical, 48 bits virtual\nByte Order:                           Little Endian\nCPU(s):                               192\nOn-line CPU(s) list:                  0-191\nVendor ID:                            AuthenticAMD\nModel name:                           AMD EPYC 7643 48-Core Processor\nCPU family:                           25\nModel:                                1\nThread(s) per core:                   2\nCore(s) per socket:                   48\nSocket(s):                            2\nStepping:                             1\nFrequency boost:                      enabled\nCPU max MHz:                          3640.9170\nCPU min MHz:                          1500.0000\nBogoMIPS:                             4591.24\nFlags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca sme sev sev_es\nVirtualization:                       AMD-V\nL1d cache:                            3 MiB (96 instances)\nL1i cache:                            3 MiB (96 instances)\nL2 cache:                             48 MiB (96 instances)\nL3 cache:                             512 MiB (16 instances)\nNUMA node(s):                         8\nNUMA node0 CPU(s):                    0-11,96-107\nNUMA node1 CPU(s):                    12-23,108-119\nNUMA node2 CPU(s):                    24-35,120-131\nNUMA node3 CPU(s):                    36-47,132-143\nNUMA node4 CPU(s):                    48-59,144-155\nNUMA node5 CPU(s):                    60-71,156-167\nNUMA node6 CPU(s):                    72-83,168-179\nNUMA node7 CPU(s):                    84-95,180-191\nVulnerability Gather data sampling:   Not affected\nVulnerability Itlb multihit:          Not affected\nVulnerability L1tf:                   Not affected\nVulnerability Mds:                    Not affected\nVulnerability Meltdown:               Not affected\nVulnerability Mmio stale data:        Not affected\nVulnerability Reg file data sampling: Not affected\nVulnerability Retbleed:               Not affected\nVulnerability Spec rstack overflow:   Mitigation; safe RET\nVulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl and seccomp\nVulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:             Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected\nVulnerability Srbds:                  Not affected\nVulnerability Tsx async abort:        Not affected\n\nVersions of relevant libraries:\n[pip3] numpy==2.2.3\n[pip3] nvidia-cublas-cu12==12.4.5.8\n[pip3] nvidia-cuda-cupti-cu12==12.4.127\n[pip3] nvidia-cuda-nvrtc-cu12==12.4.127\n[pip3] nvidia-cuda-runtime-cu12==12.4.127\n[pip3] nvidia-cudnn-cu12==9.1.0.70\n[pip3] nvidia-cufft-cu12==11.2.1.3\n[pip3] nvidia-curand-cu12==10.3.5.147\n[pip3] nvidia-cusolver-cu12==11.6.1.9\n[pip3] nvidia-cusparse-cu12==12.3.1.170\n[pip3] nvidia-cusparselt-cu12==0.6.2\n[pip3] nvidia-nccl-cu12==2.21.5\n[pip3] nvidia-nvjitlink-cu12==12.4.127\n[pip3] nvidia-nvtx-cu12==12.4.127\n[pip3] torch==2.6.0\n[pip3] triton==3.2.0\n[conda] Could not collect",
+  "transformers_version": "4.49.0",
+  "upper_git_hash": null,
+  "tokenizer_pad_token": [
+    "<PAD>",
+    0
+  ],
+  "tokenizer_eos_token": [
+    "<|END_OF_TURN_TOKEN|>",
+    255001
+  ],
+  "tokenizer_bos_token": [
+    "<BOS_TOKEN>",
+    5
+  ],
+  "eot_token_id": 255001,
+  "max_length": 8192,
+  "task_hashes": {},
+  "model_source": "hf",
+  "model_name": "CohereForAI/aya-23-8B",
+  "model_name_sanitized": "CohereForAI__aya-23-8B",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "start_time": 2415843.164040792,
+  "end_time": 2422713.01634522,
+  "total_evaluation_time_seconds": "6869.85230442835"
+}

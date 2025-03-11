@@ -5,15 +5,16 @@ Usage example:
 ```bash
 MODELS_DIR="model_results_dir_path"
 TASK_NAME="ogx_truthfulqax_mc2"
-METRIC_NAME='"acc,none"'
-python extract_results.py $MODELS_DIR --task_name $TASK_NAME --metric_name $METRIC_NAME
+python extract_results.py $MODELS_DIR --task_name $TASK_NAME
 ```
+Use --english_only flag for non ogx tasks.
 """
 import json
 import logging
 import pathlib
 
 import fire
+import numpy as np
 
 LOGGER = logging.getLogger(__file__)
 
@@ -52,10 +53,26 @@ LANGUAGES = [
     'sv'
 ]
 
+METRIC = {
+    "ogx_arcx_easy": "acc_norm,none",
+    "ogx_arcx_challenge": "acc_norm,none",
+    "ogx_hellaswagx": "acc_norm,none",
+    "ogx_mmlux": "acc,none",
+    "ogx_gsm8kx": "acc,none",
+    "ogx_truthfulqax": "acc,none",
+    "arc_easy": "acc_norm,none",
+    "arc_challenge": "acc_norm,none",
+    "mmlu": "acc,none",
+    "hellaswag": "acc_norm,none",
+    "gsm8k": "exact_match,strict-match",
+    "truthfulqa_mc2": "acc,none",
+}
 
-def main(path: str, task_name: str = "ogx_arcx_challenge", metric_name: str = "acc_norm,none"):
+
+def main(path: str, task_name: str = "ogx_arcx_challenge", english_only: bool = False):
     outputs = []
     results_path = pathlib.Path(path)
+    metric_name = METRIC[task_name]
     for model in BASE_MODELS + INSTRUCT_MODELS:
         output = [model, ""]  # Include model name and average field
         model_name = model.replace("/", "__")
@@ -71,9 +88,20 @@ def main(path: str, task_name: str = "ogx_arcx_challenge", metric_name: str = "a
         with open(result_file) as f:
             results = json.load(f)["results"]
 
-        for lang in LANGUAGES:
-            score = results[f"{task_name}_{lang}"][metric_name]
+        if english_only:
+            score = results[task_name][metric_name]
             output.append(str(score))
+        else:
+            for lang in LANGUAGES:
+                if task_name == "ogx_mmlux":
+                    score = []
+                    for result_name in results:
+                        if result_name.startswith(f"{task_name}_{lang}-"):
+                            score.append(results[result_name][metric_name])
+                    score = np.average(score)
+                else:
+                    score = results[f"{task_name}_{lang}"][metric_name]
+                output.append(str(score))
 
         outputs.append(output)
 

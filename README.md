@@ -14,8 +14,8 @@ pip install -e .
 ```
 
 ### Fix chat template
-Some models might have dict instead of string chat template and it will fail when using the lm-evaluation-harness from above.
-To avoid that replace the `chat_template` function in the `lm_eval/models/huggingface.py`.
+Some models might have dict instead of string chat template, and it will fail when using the lm-evaluation-harness from above.
+To avoid that replace the `chat_template` function in the `lm_eval/models/huggingface.py` or `lm_eval/models/vllm_causallms.py`.
 
 ```python
 def chat_template(self) -> str:
@@ -86,20 +86,20 @@ bash europeanllm_leaderboard_evaluation.sh $task $shots $rdir
 
 Tasks & Shots
 - Hellaswag
-  - `task="ogx_hellaswagx_*"`
+  - `task="ogx_hellaswagx_*"` or `task="hellaswag"`
   - `shots="10"`
 - Arc Easy
-  - `task="ogx_arcx_easy_*"`
+  - `task="ogx_arcx_easy_*"`  or `task="arc_easy"`
   - `shots="25"`
 - Arc Challenge
-  - `task="ogx_arcx_challenge_*"`
+  - `task="ogx_arcx_challenge_*"` or `task="arc_challenge"`
   - `shots="25"`
 - GSM8k
-  - `task="ogx_gsm8kx_*"`
+  - `task="ogx_gsm8kx_*"` or `task=gsm8k`
   - `shots="5"`
 - TruthfulQA
-  - `task="ogx_truthfulqax_mc2_*"`
+  - `task="ogx_truthfulqax_mc2_*"` or `task="truthfulqa_mc2"`
   - `shots="0"`
 - MMLU
-  - `task="ogx_mmlux_*-*"`
+  - `task="ogx_mmlux_*-*"` or `task="mmlu"`
   - `shots="5"`
